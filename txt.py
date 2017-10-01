@@ -1,9 +1,10 @@
 
-# assumes for all write(), that the user wants to write onto numbers.txt
-# will append instead of overwritng text
-def write(input):
+# Checks which type of input it is, then appends the data to the text file
+
+def write(type, input):
+    if type == "debt"
     f = open("numbers.txt", "a")
     f.write(input + "\n")
     f.close()
 
-write("12")
+

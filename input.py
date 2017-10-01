@@ -3,12 +3,13 @@ import sys
 import time
 import txt
 
-localtime = time.asctime( time.localtime(time.time()))
+localtime = time.strftime("%d/%m/%Y")
+
 def restart_program():
     python = sys.executable
     os.execl(python, python, * sys.argv)
 
-
+# Initial code that the terminal will run
 init = input("Type of action (expense, income, debt, other, or check): ")
 
 if init.lower() == "expense":
@@ -36,8 +37,7 @@ elif init.lower() == "other":
     strl = " ".join(other_list)
     txt.write(strl)
 elif init.lower() == "check":
-    for i in loi:
-        print(i)
+    print("Feature unavailable!")
 else:
     print("That is not a valid input, please try again.")
     restart_program()
