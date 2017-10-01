@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ed5eba8-76d2-4057-bd14-fe7f9e40a2ba" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/expenses.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/numbers.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/expense.txt" afterPath="$PROJECT_DIR$/data/expense.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/income.txt" afterPath="$PROJECT_DIR$/data/income.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input.py" afterPath="$PROJECT_DIR$/input.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readscript.py" afterPath="$PROJECT_DIR$/readscript.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/txt.py" afterPath="$PROJECT_DIR$/txt.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/budgetCalc$readscript.coverage" NAME="readscript Coverage Results" MODIFIED="1506836564692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/budgetCalc$readscript.coverage" NAME="readscript Coverage Results" MODIFIED="1506841521187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/budgetCalc$txt.coverage" NAME="txt Coverage Results" MODIFIED="1506837716016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/budget$txt.coverage" NAME="txt Coverage Results" MODIFIED="1506376286482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/budget$input.coverage" NAME="input Coverage Results" MODIFIED="1506376292212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -37,24 +34,24 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="input.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/input.py">
+          <file leaf-file-name="readscript.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/readscript.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="380">
-                  <caret line="28" column="52" lean-forward="true" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
-                  <folding>
-                    <element signature="e#0#9#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="240">
+                  <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="readscript.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/readscript.py">
+          <file leaf-file-name="budget.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/budget.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="200">
-                  <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-                  <folding />
+                <state relative-caret-position="100">
+                  <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+                  <folding>
+                    <element signature="e#0#12#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -62,9 +59,21 @@
           <file leaf-file-name="txt.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/txt.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="460">
+                <state relative-caret-position="640">
                   <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="input.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/input.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="292">
+                  <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+                  <folding>
+                    <element signature="e#0#9#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -143,9 +152,11 @@
         <option value="$PROJECT_DIR$/data/debt.txt" />
         <option value="$PROJECT_DIR$/data/other.txt" />
         <option value="$PROJECT_DIR$/txt.py" />
-        <option value="$PROJECT_DIR$/input.py" />
         <option value="$PROJECT_DIR$/data/expense.txt" />
         <option value="$PROJECT_DIR$/data/income.txt" />
+        <option value="$PROJECT_DIR$/data/budget.py" />
+        <option value="$PROJECT_DIR$/budget.py" />
+        <option value="$PROJECT_DIR$/input.py" />
       </list>
     </option>
   </component>
@@ -215,7 +226,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.txt">
+  <component name="RunManager" selected="Python.readscript">
     <configuration name="input" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -315,8 +326,8 @@
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.txt" />
-        <item index="1" class="java.lang.String" itemvalue="Python.readscript" />
+        <item index="0" class="java.lang.String" itemvalue="Python.readscript" />
+        <item index="1" class="java.lang.String" itemvalue="Python.txt" />
         <item index="2" class="java.lang.String" itemvalue="Python.input" />
       </list>
     </recent_temporary>
@@ -376,14 +387,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/script.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/input.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -622,14 +625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/txt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/expense.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -646,21 +641,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/input.py">
+    <entry file="file://$PROJECT_DIR$/data/budget.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="28" column="52" lean-forward="true" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/budget.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#12#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/txt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/readscript.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        <state relative-caret-position="240">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
