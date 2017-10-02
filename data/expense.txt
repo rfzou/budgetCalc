@@ -1,3 +1,3 @@
-sadasdanuggets|2|01/10/2017
-nuggets|12|01/10/2017
-blanket|40|01/10/2017
+nuggets|20|01/10/2017
+ticket|20|01/10/2017
+foodie fruitie |30|01/10/2017

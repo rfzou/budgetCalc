@@ -9,48 +9,51 @@ def restart_program():
     python = sys.executable
     os.execl(python, python, * sys.argv)
 
-# Initial code that the terminal will run
-def function():
-    init = input("Type of action (expense, income, debt, other, or check): ")
-
-    if init.lower() == "expense":
-        ex_item = input("What did you buy? ")
-        ex_cost = input("How much was it? ")
-        ex_list = [ex_item, ex_cost, localtime]
-        strl = "|".join(ex_list)
-        txt.write("expense", strl)
-        end()
-    elif init.lower() == "income":
-        inc_action = input("How did you earn the money? ")
-        inc_value = input("How much did you earn? ")
-        inc_list = [inc_action, inc_value, localtime]
-        strl = "|".join(inc_list)
-        txt.write("income", strl)
-        end()
-    elif init.lower() == "debt":
-        debt_person = input("Who owes you? ")
-        debt_amount = input("How much does " + debt_person + " owe you? ")
-        debt_list = [debt_person, debt_amount, localtime]
-        strl = "|".join(debt_list)
-        txt.write("debt", strl)
-        end()
-    elif init.lower() == "other":
-        other_item = input("What did you spend it on? ")
-        other_cost = input("How much was it?")
-        other_list = [other_item, other_cost, localtime]
-        strl = "|".join(other_list)
-        txt.write("other", strl)
-        end()
-    elif init.lower() == "check":
-        print("Feature coming soon!")
-    else:
-        print("That is not a valid input, please try again.")
-        restart_program()
-
 def end():
     print("Would you like to perform another action?")
     endInp = input("Y/N: ")
-    if endInp.lower() == "y" or "yes":
+    if endInp.lower() == "y":
         restart_program()
+    elif endInp.lower() == "n":
+        os._exit()
     else:
-        quit()
+        print("That is not a valid input.")
+        end()
+
+# Initial code that the terminal will run
+
+init = input("Type of action (expense, income, debt, other, or check): ")
+
+if init.lower() == "expense":
+    ex_item = input("What did you buy? ")
+    ex_cost = input("How much was it? ")
+    ex_list = [ex_item, ex_cost, localtime]
+    strL = "|".join(ex_list)
+    txt.write("expense", strL)
+    end()
+elif init.lower() == "income":
+    inc_action = input("How did you earn the money? ")
+    inc_value = input("How much did you earn? ")
+    inc_list = [inc_action, inc_value, localtime]
+    strL = "|".join(inc_list)
+    txt.write("income", strL)
+    end()
+elif init.lower() == "debt":
+    debt_person = input("Who owes you? ")
+    debt_amount = input("How much does " + debt_person + " owe you? ")
+    debt_list = [debt_person, debt_amount, localtime]
+    strL = "|".join(debt_list)
+    txt.write("debt", strL)
+    end()
+elif init.lower() == "other":
+    other_item = input("What did you spend it on? ")
+    other_cost = input("How much was it? ")
+    other_list = [other_item, other_cost, localtime]
+    strL = "|".join(other_list)
+    txt.write("other", strL)
+    end()
+elif init.lower() == "check":
+    print("Feature coming soon!")
+else:
+    print("That is not a valid input, please try again.")
+    restart_program()
